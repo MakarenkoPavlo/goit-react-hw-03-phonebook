@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { nanoid } from 'nanoid';
 import PropTypes from 'prop-types';
-import styles from './ContactForm.module.css';
+import styles from '../ContactForm/ContactForm.module.css';
 
 function ContactForm({ onAddContact, contacts }) {
   const [name, setName] = useState('');

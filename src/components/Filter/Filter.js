@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Filter.module.css';
+import styles from '../Filter/Filter.module.css';
 
 function Filter({ value, onChange }) {
   return (
